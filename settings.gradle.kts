@@ -5,13 +5,14 @@ pluginManagement {
         gradlePluginPortal()
     }
 }
+
 dependencyResolutionManagement {
-    repositoriesMode.set(org.gradle.api.initialization.resolve.RepositoriesMode.FAIL_ON_PROJECT_REPOSITORIES)
     repositories {
         google()
         mavenCentral()
         maven { url = java.net.URI("https://jitpack.io") }
     }
 }
+
 rootProject.name = "PizzaOvenMobile"
 include(":app")

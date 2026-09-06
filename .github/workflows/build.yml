@@ -23,7 +23,7 @@ jobs:
         run: chmod +x gradlew || true
 
       - name: Gerar Gradle Wrapper
-        run: gradle wrapper
+        run: gradle wrapper --gradle-version 8.7
 
       - name: Compilar APK Debug
         run: ./gradlew assembleDebug --stacktrace

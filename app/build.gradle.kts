@@ -34,6 +34,6 @@ dependencies {
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.11.0")
     
-    // Biblioteca open-source leve para aplicar patches xdelta
-    implementation("com.github.fuzziebrain:xdelta-android:1.0.0")
+    // Biblioteca com falha de download desativada:
+    // implementation("com.github.fuzziebrain:xdelta-android:1.0.0")
 }
